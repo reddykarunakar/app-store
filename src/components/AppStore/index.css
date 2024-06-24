@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  font-family: Bree Serif;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 47px;
+}
+
+.inputbox {
+  background-color: transparent;
+  border: 1px solid #7b8794;
+  width: 220px;
+  height: 45px;
+  display: flex;
+  padding: 5px;
+  border-radius: 7px;
+  align-items: center;
+}
+input {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+}
+
+.logo1 {
+  height: 30px;
+  margin: 5px;
+}
+
+.tabs-container {
+  display: flex;
+  list-style: none;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  gap: 17px;
+}
